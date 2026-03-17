@@ -2,7 +2,7 @@
   "name": "cv_jarno_claus",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://clausjarno.github.io/CV_Website",
+  "homepage": "https://clausjarno.github.io/CV_Website/",
   "dependencies": {
     "@testing-library/dom": "^10.4.1",
     "@testing-library/jest-dom": "^6.9.1",
