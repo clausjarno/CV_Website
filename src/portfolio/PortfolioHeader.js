@@ -1,5 +1,6 @@
 import React from 'react'
 import '../css/portfolioHeader.css'
+import { Link } from 'react-router-dom'
 
 export default function Header() {
     return (
@@ -9,9 +10,9 @@ export default function Header() {
                     Jarno Claus
                 </div>
                 <nav className='nav-links'>
-                    <a href='/'>Projects</a>
-                    <a href='/cv'>CV</a>
-                    <a href='https://github.com/clausjarno'>Github</a>
+                    <Link to='/'>Projects</Link>
+                    <Link to='/cv'>CV</Link>
+                    <a href='https://github.com/clausjarno' target='_blank' rel='noopener noreferrer'>Github</a>
                     <a href="/Jarno Claus CV.pdf" download>Download CV</a>
                 </nav>
             </div>
