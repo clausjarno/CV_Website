@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/CV_Website/static/css/main.e31d19f1.css",
-    "main.js": "/CV_Website/static/js/main.6eb3211c.js",
+    "main.js": "/CV_Website/static/js/main.91fc961e.js",
     "static/media/RA_Showcase.mp4": "/CV_Website/static/media/RA_Showcase.e3c60527a444ebc8b8cf.mp4",
     "static/media/OCR Example.jpg": "/CV_Website/static/media/OCR Example.3138da1b036e8577ea20.jpg",
     "static/media/New added word.jpg": "/CV_Website/static/media/New added word.7c8b26373680c69c6b86.jpg",
@@ -23,10 +23,10 @@
     "static/media/slick.woff": "/CV_Website/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/CV_Website/index.html",
     "main.e31d19f1.css.map": "/CV_Website/static/css/main.e31d19f1.css.map",
-    "main.6eb3211c.js.map": "/CV_Website/static/js/main.6eb3211c.js.map"
+    "main.91fc961e.js.map": "/CV_Website/static/js/main.91fc961e.js.map"
   },
   "entrypoints": [
     "static/css/main.e31d19f1.css",
-    "static/js/main.6eb3211c.js"
+    "static/js/main.91fc961e.js"
   ]
 }
