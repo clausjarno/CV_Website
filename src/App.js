@@ -6,7 +6,7 @@ import ScrollToTop from './ScrollToTop.js'
 
 export default function App() {
     return (
-        <Router basename='/CV_Website'>
+        <Router>
             <ScrollToTop />
             <Routes>
                 <Route path="/" element={<Home />} />

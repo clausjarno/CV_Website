@@ -9,8 +9,8 @@ export default function Header() {
                     Jarno Claus
                 </div>
                 <nav className='nav-links'>
-                    <a href='/CV_Website/'>Projects</a>
-                    <a href='/CV_Website/cv'>CV</a>
+                    <a href='/'>Projects</a>
+                    <a href='/cv'>CV</a>
                     <a href='https://github.com/clausjarno'>Github</a>
                     <a href="/Jarno Claus CV.pdf" download>Download CV</a>
                 </nav>
