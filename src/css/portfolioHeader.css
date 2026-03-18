@@ -32,3 +32,20 @@ header {
 .nav-links a:hover {
     color: #FFB07C;
 }
+
+.nav-links .lang-flag {
+    width: 24px;
+    height: auto;
+    cursor: pointer;
+    margin-left: 15px;
+    border-bottom: 2px solid transparent;
+    transition: transform 0.2s, border-color 0.2s;
+}
+
+.nav-links .lang-flag:hover {
+    transform: scale(1.2);
+}
+
+.nav-links .lang-flag.active {
+    border-color: #FFB07C;
+}

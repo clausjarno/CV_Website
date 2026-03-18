@@ -1,22 +1,25 @@
+import { useTranslation } from 'react-i18next'
+
 export default function Computerkennis() {
+    const { t } = useTranslation();
     return (
         <div className='computerkennis'>
-            <h2>Computerkennis</h2>
-            <h3>Hardware</h3>
-            <h3>Software</h3>
+            <h2>{t('CV.PART_6.TITLE')}</h2>
+            <h3>{t('CV.PART_6.SUBPART_1.TITLE')}</h3>
+            <h3>{t('CV.PART_6.SUBPART_2.TITLE')}</h3>
             <ul>
-                <li>VS 2022</li>
-                <li>VS Code</li>
-                <li>SQL Server Management Studio</li>
-                <li>GitHub</li>
-                <li>Postman</li>
-                <li>Render</li>
-                <li>Neon PostgreSQL</li>
+                <li>{t('CV.PART_6.SUBPART_2.ITEMS.ITEM_1')}</li>
+                <li>{t('CV.PART_6.SUBPART_2.ITEMS.ITEM_2')}</li>
+                <li>{t('CV.PART_6.SUBPART_2.ITEMS.ITEM_3')}</li>
+                <li>{t('CV.PART_6.SUBPART_2.ITEMS.ITEM_4')}</li>
+                <li>{t('CV.PART_6.SUBPART_2.ITEMS.ITEM_5')}</li>
+                <li>{t('CV.PART_6.SUBPART_2.ITEMS.ITEM_6')}</li>
+                <li>{t('CV.PART_6.SUBPART_2.ITEMS.ITEM_7')}</li>
             </ul>
-            <h3>Microsoft 365</h3>
+            <h3>{t('CV.PART_6.SUBPART_3.TITLE')}</h3>
             <ul>
-                <li>Word, Powerpoint, Excel, Access, Outlook</li>
-                <li>Teams</li>
+                <li>{t('CV.PART_6.SUBPART_3.ITEMS.ITEM_1')}</li>
+                <li>{t('CV.PART_6.SUBPART_3.ITEMS.ITEM_2')}</li>
             </ul>
         </div>
     )

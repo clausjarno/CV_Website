@@ -6,8 +6,10 @@ import Talenkennis from './Talenkennis.js'
 import Werkervaring from './Werkervaring.js'
 import Computerkennis from './Computerkennis.js'
 import { Link } from 'react-router-dom'
+import { useTranslation } from 'react-i18next'
 
 export default function Body() {
+  const { t, i18n } = useTranslation();
   return (
     <>
       <div className='page body'>
@@ -18,19 +20,14 @@ export default function Body() {
         </div>
         <div className='right-section'>
           <div className='profiel'>
-            <h2>Profiel</h2>
+            <h2>{t('CV.PART_4.TITLE')}</h2>
             <p>
-              Ik ben 25 jaar en volg momenteel een opleiding in .NET
-              development. Ik heb een grote interesse in
-              softwareontwikkeling en ben gemotiveerd om mijn kennis
-              verder uit te breiden. Hoewel ik nog aan het begin van mijn
-              carrière sta, kijk ik enorm uit naar een praktische uitdaging om
-              mijn vaardigheden verder te ontwikkelen.
+              {t('CV.PART_4.DESCRIPTION')}
             </p>
           </div>
           <Werkervaring />
           <Computerkennis />
-          <Link to="/" className='btn'>Portfolio</Link>
+          <Link to={`/${i18n.language}/`} className='btn'>Portfolio</Link>
         </div>
       </div>
     </>

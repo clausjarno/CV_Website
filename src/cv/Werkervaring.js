@@ -1,26 +1,29 @@
+import { useTranslation } from 'react-i18next'
+
 export default function Werkervaring() {
+    const { t } = useTranslation();
     return (
         <div className='werkervaring'>
-            <h2>Werkervaring</h2>
-            <h3>Service technician <span>(augustus 2024 - december 2024)</span></h3>
-            <p className='location'>Signpost (Lokeren)</p>
+            <h2>{t('CV.PART_5.TITLE')}</h2>
+            <h3>{t('CV.PART_5.SUBPART_1.TITLE')} <span>{t('CV.PART_5.SUBPART_1.NOTE')}</span></h3>
+            <p className='location'>{t('CV.PART_5.SUBPART_1.LOCATION')}</p>
             <ul>
-                <li>Diagnose stellen bij defecte laptops</li>
-                <li>Herstellen laptops (HP, Lenovo, Dell en Asus)</li>
-                <li>Controle gerepareerde laptops</li>
-                <li>Refurb moederborden testen</li>
+                <li>{t('CV.PART_5.SUBPART_1.ITEMS.ITEM_1')}</li>
+                <li>{t('CV.PART_5.SUBPART_1.ITEMS.ITEM_2')}</li>
+                <li>{t('CV.PART_5.SUBPART_1.ITEMS.ITEM_3')}</li>
+                <li>{t('CV.PART_5.SUBPART_1.ITEMS.ITEM_4')}</li>
             </ul>
-            <h3>Order entry <span>(december 2022 - augustus 2024)</span></h3>
-            <p className='location'>Nollens (Kruishoutem)</p>
+            <h3>{t('CV.PART_5.SUBPART_2.TITLE')} <span>{t('CV.PART_5.SUBPART_2.NOTE')}</span></h3>
+            <p className='location'>{t('CV.PART_5.SUBPART_2.LOCATION')}</p>
             <ul>
-                <li>Orders ingeven</li>
-                <li>Contactperseoon tussen productie en bureau</li>
+                <li>{t('CV.PART_5.SUBPART_2.ITEMS.ITEM_1')}</li>
+                <li>{t('CV.PART_5.SUBPART_2.ITEMS.ITEM_2')}</li>
             </ul>
-            <h3>Gastheer <span>(december 2021 - september 2022)</span></h3>
-            <p className='location'>Oxygen Fitness (Waregem)</p>
+            <h3>{t('CV.PART_5.SUBPART_3.TITLE')} <span>{t('CV.PART_5.SUBPART_3.NOTE')}</span></h3>
+            <p className='location'>{t('CV.PART_5.SUBPART_3.LOCATION')}</p>
             <ul>
-                <li>Aanspreekpunt voor de klant</li>
-                <li>Club onderhouden</li>
+                <li>{t('CV.PART_5.SUBPART_3.ITEMS.ITEM_1')}</li>
+                <li>{t('CV.PART_5.SUBPART_3.ITEMS.ITEM_2')}</li>
             </ul>
         </div>
     )

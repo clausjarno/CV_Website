@@ -18,19 +18,23 @@ import 'slick-carousel/slick/slick.css'
 import 'slick-carousel/slick/slick-theme.css'
 import Slider from 'react-slick'
 
-const media = [
-    StartUp,
-    BookList,
-    BookEdit,
-    WordList,
-    OCRExample,
-    NewWord,
-    WordEditButton,
-    WordEditPage,
-    ShowCaseVideo
-];
+/* Globalization */
+import { useTranslation } from 'react-i18next'
 
 export default function Portfolio() {
+
+    const media = [
+        StartUp,
+        BookList,
+        BookEdit,
+        WordList,
+        OCRExample,
+        NewWord,
+        WordEditButton,
+        WordEditPage,
+        ShowCaseVideo
+    ];
+
     const settings = {
         dots: true,
         infinite: true,
@@ -39,6 +43,8 @@ export default function Portfolio() {
         slidesToScroll: 1,
         arrows: true
     };
+
+    const { t } = useTranslation();
 
     return (
         <>
@@ -67,43 +73,42 @@ export default function Portfolio() {
                                 ))}
                             </Slider>
                         </div>
-                        <h2>Overzicht</h2>
+                        <h2>{t('PROJECTS.SUBTITLE')}</h2>
                         <p>
-                            Dit project is een applicatie om woordenlijsten van boeken efficiënt te beheren en te verrijken met definities en voorbeeldzinnen via AI.
-                            Vooraf heb ik een MVP gedefinieerd, een korte README geschreven met de tech stack en user stories, en een Dev Log bijgehouden van mijn dagelijkse werk.
+                            {t('PROJECTS.PROJECT_1.DESCRIPTION')}
                         </p>
-                        <h3>Projectoverzicht</h3>
+                        <h3>{t('PROJECTS.PROJECT_1.PART_1.TITLE')}</h3>
                         <ul>
-                            <li>Opstellen van MVP, user stories en taken (UI, Logic, Data, Error Handling)</li>
-                            <li>Ontwikkeling van de frontend en backend logica</li>
-                            <li>Integratie van AI-service voor automatisch ophalen van definities en voorbeeldzinnen</li>
-                            <li>Opzetten van OCR-functionaliteit voor toevoegen van woorden via camera</li>
-                            <li>Documentatie: README, Dev Log, Trello board met user stories</li>
+                            <li>{t('PROJECTS.PROJECT_1.PART_1.ITEMS.ITEM_1')}</li>
+                            <li>{t('PROJECTS.PROJECT_1.PART_1.ITEMS.ITEM_2')}</li>
+                            <li>{t('PROJECTS.PROJECT_1.PART_1.ITEMS.ITEM_3')}</li>
+                            <li>{t('PROJECTS.PROJECT_1.PART_1.ITEMS.ITEM_4')}</li>
+                            <li>{t('PROJECTS.PROJECT_1.PART_1.ITEMS.ITEM_5')}</li>
                         </ul>
-                        <h3>Functionaliteiten</h3>
+                        <h3>{t('PROJECTS.PROJECT_1.PART_2.TITLE')}</h3>
                         <ul>
-                            <li>Overzicht van boeken met swipe-functionaliteit: links voor verwijderen, rechts voor bewerken</li>
-                            <li>Woordenlijst per boek met paginanummer, term, definitie en voorbeeldzin</li>
-                            <li>Toevoegen van nieuwe woorden via camera (OCR)</li>
-                            <li>Automatische AI-opvraag naar Gemini voor definitie en voorbeeldzin</li>
-                            <li>Alle toegevoegde woorden worden direct toegevoegd aan de juiste lijst</li>
+                            <li>{t('PROJECTS.PROJECT_1.PART_2.ITEMS.ITEM_1')}</li>
+                            <li>{t('PROJECTS.PROJECT_1.PART_2.ITEMS.ITEM_2')}</li>
+                            <li>{t('PROJECTS.PROJECT_1.PART_2.ITEMS.ITEM_3')}</li>
+                            <li>{t('PROJECTS.PROJECT_1.PART_2.ITEMS.ITEM_4')}</li>
+                            <li>{t('PROJECTS.PROJECT_1.PART_2.ITEMS.ITEM_5')}</li>
                         </ul>
-                        <h3>Tech Stack</h3>
+                        <h3>{t('PROJECTS.PROJECT_1.PART_3.TITLE')}</h3>
                         <ul>
-                            <li>.NET MAUI</li>
-                            <li>OCR Plugin</li>
-                            <li>AI-service (Gemini, free tier)</li>
+                            <li>{t('PROJECTS.PROJECT_1.PART_3.ITEMS.ITEM_1')}</li>
+                            <li>{t('PROJECTS.PROJECT_1.PART_3.ITEMS.ITEM_2')}</li>
+                            <li>{t('PROJECTS.PROJECT_1.PART_3.ITEMS.ITEM_3')}</li>
                         </ul>
-                        <h3>Project management ervaring</h3>
+                        <h3>{t('PROJECTS.PROJECT_1.PART_4.TITLE')}</h3>
                         <ul>
-                            <li>Opstellen van MVP en user stories</li>
-                            <li>Dagelijks bijhouden van Dev Log</li>
-                            <li>Gebruik van Trello voor user stories en sprinttaken</li>
-                            <li>Documentatie via README en code op GitHub</li>
+                            <li>{t('PROJECTS.PROJECT_1.PART_4.ITEMS.ITEM_1')}</li>
+                            <li>{t('PROJECTS.PROJECT_1.PART_4.ITEMS.ITEM_2')}</li>
+                            <li>{t('PROJECTS.PROJECT_1.PART_4.ITEMS.ITEM_3')}</li>
+                            <li>{t('PROJECTS.PROJECT_1.PART_4.ITEMS.ITEM_4')}</li>
                         </ul>
-                        <h3>Links</h3>
+                        <h3>{t('PROJECTS.PROJECT_1.PART_5.TITLE')}</h3>
                         <ul>
-                            <li><a href='https://github.com/clausjarno/Reading-Assistant'>GitHub repository (code, README & Dev Log)</a></li>
+                            <li><a href='https://github.com/clausjarno/Reading-Assistant'>{t('PROJECTS.PROJECT_1.PART_5.ITEM_1')}</a></li>
                         </ul>
                     </div>
                     <div className='project-section'>
@@ -111,40 +116,38 @@ export default function Portfolio() {
                         <div className='portfolio-images bestellingen'>
                             <img src={ScrumProject} alt='Bestellingen overzicht' />
                         </div>
-                        <h2>Overzicht</h2>
+                        <h2>{t('PROJECTS.SUBTITLE')}</h2>
                         <p>
-                            Eerste kennismaking met de SCRUM-methode binnen een teamomgeving.
-                            Het project bestond uit vier teams: verkoop, aankoop, magazijn en webshop.
-                            Ik maakte deel uit van het team verkoop.
+                            {t('PROJECTS.PROJECT_2.DESCRIPTION')}
                         </p>
-                        <h3>Mijn bijdrage</h3>
+                        <h3>{t('PROJECTS.PROJECT_2.PART_1.TITLE')}</h3>
                         <ul>
-                            <li>Implementatie van filtering, sortering en paginering</li>
-                            <li>Werken via pair programming</li>
-                            <li>Samenwerking met andere teams</li>
+                            <li>{t('PROJECTS.PROJECT_2.PART_1.ITEMS.ITEM_1')}</li>
+                            <li>{t('PROJECTS.PROJECT_2.PART_1.ITEMS.ITEM_2')}</li>
+                            <li>{t('PROJECTS.PROJECT_2.PART_1.ITEMS.ITEM_3')}</li>
                         </ul>
-                        <h3>Functionaliteiten</h3>
+                        <h3>{t('PROJECTS.PROJECT_2.PART_2.TITLE')}</h3>
                         <ul>
-                            <li>Meerdere filters tegelijk combineren</li>
-                            <li>Sorteren op elke kolom (oplopend/aflopend)</li>
-                            <li>Instellen van aantal items per pagina</li>
-                            <li>Paginering met navigatie</li>
-                            <li>Behouden van filters en instellingen bij terug navigeren</li>
+                            <li>{t('PROJECTS.PROJECT_2.PART_2.ITEMS.ITEM_1')}</li>
+                            <li>{t('PROJECTS.PROJECT_2.PART_2.ITEMS.ITEM_2')}</li>
+                            <li>{t('PROJECTS.PROJECT_2.PART_2.ITEMS.ITEM_3')}</li>
+                            <li>{t('PROJECTS.PROJECT_2.PART_2.ITEMS.ITEM_4')}</li>
+                            <li>{t('PROJECTS.PROJECT_2.PART_2.ITEMS.ITEM_5')}</li>
                         </ul>
-                        <h3>Tech Stack:</h3>
+                        <h3>{t('PROJECTS.PROJECT_2.PART_3.TITLE')}</h3>
                         <ul>
-                            <li>.NET</li>
-                            <li>EF Core</li>
+                            <li>{t('PROJECTS.PROJECT_2.PART_3.ITEMS.ITEM_1')}</li>
+                            <li>{t('PROJECTS.PROJECT_2.PART_3.ITEMS.ITEM_2')}</li>
                         </ul>
-                        <h3>Scrum ervaring</h3>
+                        <h3>{t('PROJECTS.PROJECT_2.PART_4.TITLE')}</h3>
                         <ul>
-                            <li>Dagelijkse stand-up</li>
-                            <li>Sprint planning en retrospectives</li>
-                            <li>Opstellen van user stories en sprint taken</li>
+                            <li>{t('PROJECTS.PROJECT_2.PART_4.ITEMS.ITEM_1')}</li>
+                            <li>{t('PROJECTS.PROJECT_2.PART_4.ITEMS.ITEM_2')}</li>
+                            <li>{t('PROJECTS.PROJECT_2.PART_4.ITEMS.ITEM_3')}</li>
                         </ul>
-                        <h3>Opmerking</h3>
+                        <h3>{t('PROJECTS.PROJECT_2.PART_5.TITLE')}</h3>
                         <p>
-                            Door projectbeperkingen kan de broncode niet publiekelijk gedeeld worden
+                            {t('PROJECTS.PROJECT_2.PART_5.DESCRIPTION')}
                         </p>
                     </div>
                 </div>

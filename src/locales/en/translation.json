@@ -1,0 +1,202 @@
+{
+    "PROJECTS": {
+        "SUBTITLE": "Overview",
+        "PROJECT_1": {
+            "DESCRIPTION": "This project is an application designed to efficiently manage vocabulary lists from books and enrich them with definitions and example sentences using AI. Prior to development, I defined an MVP, wrote a concise README outlining the tech stack and user stories, and maintained a Dev Log documenting my daily progress.",
+            "PART_1": {
+                "TITLE": "Project overview",
+                "ITEMS": {
+                    "ITEM_1": "Create MVP, user stories, and tasks (UI, Logic, Data, Error Handling)",
+                    "ITEM_2": "Develop frontend and backend logic",
+                    "ITEM_3": "Integrate AI service to automatically fetch definitions and example sentences",
+                    "ITEM_4": "Set up OCR functionality to add words via camera",
+                    "ITEM_5": "Documentation: README, Dev Log, Trello board with user stories"
+                }
+            },
+            "PART_2": {
+                "TITLE": "Features",
+                "ITEMS": {
+                    "ITEM_1": "Book overview with swipe functionality: swipe left to delete, swipe right to edit",
+                    "ITEM_2": "Word list per book with page number, term, definition, and example sentence",
+                    "ITEM_3": "Add new words via camera (OCR)",
+                    "ITEM_4": "Automatic AI request to Gemini for definition and example sentence",
+                    "ITEM_5": "All added words are immediately added to the correct list"
+                }
+            },
+            "PART_3": {
+                "TITLE": "Tech Stack",
+                "ITEMS": {
+                    "ITEM_1": ".NET MAUI",
+                    "ITEM_2": "OCR Plugin",
+                    "ITEM_3": "AI-service (Gemini, free tier)"
+                }
+            },
+            "PART_4": {
+                "TITLE": "Project management experience",
+                "ITEMS": {
+                    "ITEM_1": "Create MVP and user stories",
+                    "ITEM_2": "Maintain daily Dev Log",
+                    "ITEM_3": "Use Trello for user stories and sprint tasks",
+                    "ITEM_4": "Documentation via README and code on GitHub"
+                }
+            },
+            "PART_5": {
+                "TITLE": "Links",
+                "ITEM_1": "GitHub repository (code, README & Dev Log)"
+            }
+        },
+        "PROJECT_2": {
+            "DESCRIPTION": "First introduction to the SCRUM method within a team environment. The project consisted of four teams: Sales, Purchasing, Warehouse, and Webshop. I was part of the Sales team.",
+            "PART_1": {
+                "TITLE": "My contribution",
+                "ITEMS": {
+                    "ITEM_1": "Implement filtering, sorting, and pagination",
+                    "ITEM_2": "Work through pair programming",
+                    "ITEM_3": "Collaboration with other teams"
+                }
+            },
+            "PART_2": {
+                "TITLE": "Features",
+                "ITEMS": {
+                    "ITEM_1": "Combine multiple filters at the same time",
+                    "ITEM_2": "Sort on any column (ascending/descending)",
+                    "ITEM_3": "Set number of ITEMS per page",
+                    "ITEM_4": "Pagination with navigation",
+                    "ITEM_5": "Keep filters and settings when navigating back"
+                }
+            },
+            "PART_3": {
+                "TITLE": "Tech Stack",
+                "ITEM_1": ".NET",
+                "ITEM_2": "EF Core"
+            },
+            "PART_4": {
+                "TITLE": "Scrum experience",
+                "ITEMS": {
+                    "ITEM_1": "Daily stand-up",
+                    "ITEM_2": "Sprint planning and retrospectives",
+                    "ITEM_3": "Create user stories and sprint tasks"
+                }
+            },
+            "PART_5": {
+                "TITLE": "Notes",
+                "DESCRIPTION": "Due to project constraints, the source code cannot be shared publicly."
+            }
+        }
+    },
+    "CV": {
+        "HEADER_TITLE": "Information",
+        "PART_1": {
+            "TITLE": "Education",
+            "SUBTITLE_1": ".NET Developer with C# – 01/06/24 to Present",
+            "ITEM_1": {
+                "TITLE": "Basic IT training",
+                "ITEMS": {
+                    "ITEM_1_1": "HTML en CSS",
+                    "ITEM_1_2": "SQL",
+                    "ITEM_1_3": "Javascript",
+                    "ITEM_1_4": "OOP (Object-Oriented Programming)",
+                    "ITEM_1_5": "Data analysis",
+                    "ITEM_1_6": "Programming logic"
+                }
+            },
+            "ITEM_2": {
+                "TITLE": ".NET C#",
+                "ITEMS": {
+                    "ITEM_2_1": "C# Programming Fundamentals",
+                    "ITEM_2_2": "Regex",
+                    "ITEM_2_3": "Test Driven Development",
+                    "ITEM_2_4": "ASP.NET MVC",
+                    "ITEM_2_5": "Entity Framework",
+                    "ITEM_2_6": "Web API",
+                    "ITEM_2_7": "Razor Pages",
+                    "ITEM_2_8": "Blazor",
+                    "ITEM_2_9": "Design Patterns",
+                    "ITEM_2_10": "React"
+                }
+            },
+            "SUBTITLE_2": "Fitness Instructor & Personal Coach (Diploma)",
+            "SUBTITLE_3": "IT and Networking (Secondary Education)"
+        },
+        "PART_2": {
+            "TITLE": "Personal Skills",
+            "ITEMS": {
+                "ITEM_1": "Independent",
+                "ITEM_2": "Punctual",
+                "ITEM_3": "Team player",
+                "ITEM_4": "Insightful",
+                "ITEM_5": "Problem-solving",
+                "ITEM_6": "Analytical"
+            }
+        },
+        "PART_3": {
+            "TITLE": "Languages",
+            "ITEMS": {
+                "ITEM_1": "Dutch",
+                "ITEM_2": "English",
+                "ITEM_3": "French"
+            }
+        },
+        "PART_4": {
+            "TITLE": "Profile",
+            "DESCRIPTION": "I am 26 years old and have completed my education in .NET development. I have a strong interest in software development and am motivated to further expand my knowledge. Although I am still at the beginning of my career, I am very eager for a practical challenge to further develop my skills."
+        },
+        "PART_5": {
+            "TITLE": "Work Experience",
+            "SUBPART_1": {
+                "TITLE": "Service Technician",
+                "NOTE": "(August 2024 – December 2024)",
+                "LOCATION": "Signpost (Lokeren)",
+                "ITEMS": {
+                    "ITEM_1": "Diagnose defective laptops",
+                    "ITEM_2": "Repair laptops (HP, Lenovo, Dell, and Asus)",
+                    "ITEM_3": "Check repaired laptops",
+                    "ITEM_4": "Test refurbished motherboards"
+                }
+            },
+            "SUBPART_2": {
+                "TITLE": "Order entry",
+                "NOTE": "(December 2022 – August 2024)",
+                "LOCATION": "Nollens (Kruishoutem)",
+                "ITEMS": {
+                    "ITEM_1": "Enter orders",
+                    "ITEM_2": "Serve as contact person between production and office"
+                }
+            },
+            "SUBPART_3": {
+                "TITLE": "Host ",
+                "NOTE": "(December 2021 – September 2022)",
+                "LOCATION": "Oxygen Fitness (Waregem)",
+                "ITEMS": {
+                    "ITEM_1": "Point of contact for customers",
+                    "ITEM_2": "Maintain the club"
+                }
+            }
+        },
+        "PART_6": {
+            "TITLE": "Computer Skills",
+            "SUBPART_1": {
+                "TITLE": "Hardware"
+            },
+            "SUBPART_2": {
+                "TITLE": "Software",
+                "ITEMS": {
+                    "ITEM_1": "VS 2022",
+                    "ITEM_2": "VS Code",
+                    "ITEM_3": "SQL Server Management Studio",
+                    "ITEM_4": "GitHub",
+                    "ITEM_5": "Postman",
+                    "ITEM_6": "Render",
+                    "ITEM_7": "Neon PostgreSQL"
+                }
+            },
+            "SUBPART_3": {
+                "TITLE": "Microsoft 365",
+                "ITEMS": {
+                    "ITEM_1": "Word, Powerpoint, Excel, Access, Outlook",
+                    "ITEM_2": "Teams"
+                }
+            }
+        }
+    }
+}

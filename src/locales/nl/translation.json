@@ -1,0 +1,204 @@
+{
+    "PROJECTS": {
+        "SUBTITLE": "Overzicht",
+        "PROJECT_1": {
+            "DESCRIPTION": "Dit project is een applicatie om woordenlijsten van boeken efficiënt te beheren en te verrijken met definities en voorbeeldzinnen via AI. Vooraf heb ik een MVP gedefinieerd, een korte README geschreven met de tech stack en user stories, en een Dev Log bijgehouden van mijn dagelijkse werk.",
+            "PART_1": {
+                "TITLE": "Projectoverzicht",
+                "ITEMS": {
+                    "ITEM_1": "Opstellen van MVP, user stories en taken (UI, Logic, Data, Error Handling)",
+                    "ITEM_2": "Ontwikkeling van de frontend en backend logica",
+                    "ITEM_3": "Integratie van AI-service voor automatisch ophalen van definities en voorbeeldzinnen",
+                    "ITEM_4": "Opzetten van OCR-functionaliteit voor toevoegen van woorden via camera",
+                    "ITEM_5": "Documentatie: README, Dev Log, Trello board met user stories"
+                }
+            },
+            "PART_2": {
+                "TITLE": "Functionaliteiten",
+                "ITEMS": {
+                    "ITEM_1": "Overzicht van boeken met swipe-functionaliteit: links voor verwijderen, rechts voor bewerken",
+                    "ITEM_2": "Woordenlijst per boek met paginanummer, term, definitie en voorbeeldzin",
+                    "ITEM_3": "Toevoegen van nieuwe woorden via camera (OCR)",
+                    "ITEM_4": "Automatische AI-opvraag naar Gemini voor definitie en voorbeeldzin",
+                    "ITEM_5": "Alle toegevoegde woorden worden direct toegevoegd aan de juiste lijst"
+                }
+            },
+            "PART_3": {
+                "TITLE": "Tech Stack",
+                "ITEMS": {
+                    "ITEM_1": ".NET MAUI",
+                    "ITEM_2": "OCR Plugin",
+                    "ITEM_3": "AI-service (Gemini, free tier)"
+                }
+            },
+            "PART_4": {
+                "TITLE": "Project management ervaring",
+                "ITEMS": {
+                    "ITEM_1": "Opstellen van MVP en user stories",
+                    "ITEM_2": "Dagelijks bijhouden van Dev Log",
+                    "ITEM_3": "Gebruik van Trello voor user stories en sprinttaken",
+                    "ITEM_4": "Documentatie via README en code op GitHub"
+                }
+            },
+            "PART_5": {
+                "TITLE": "Links",
+                "ITEM_1": "GitHub repository (code, README & Dev Log)"
+            }
+        },
+        "PROJECT_2": {
+            "DESCRIPTION": "Eerste kennismaking met de SCRUM-methode binnen een teamomgeving. Het project bestond uit vier teams: verkoop, aankoop, magazijn en webshop. Ik maakte deel uit van het team verkoop.",
+            "PART_1": {
+                "TITLE": "Mijn bijdrage",
+                "ITEMS": {
+                    "ITEM_1": "Implementatie van filtering, sortering en paginering",
+                    "ITEM_2": "Werken via pair programming",
+                    "ITEM_3": "Samenwerking met andere teams"
+                }
+            },
+            "PART_2": {
+                "TITLE": "Functionaliteiten",
+                "ITEMS": {
+                    "ITEM_1": "Meerdere filters tegelijk combineren",
+                    "ITEM_2": "Sorteren op elke kolom (oplopend/aflopend)",
+                    "ITEM_3": "Instellen van aantal items per pagina",
+                    "ITEM_4": "Paginering met navigatie",
+                    "ITEM_5": "Behouden van filters en instellingen bij terug navigeren"
+                }
+            },
+            "PART_3": {
+                "TITLE": "Tech Stack",
+                "ITEMS": {
+                    "ITEM_1": ".NET",
+                    "ITEM_2": "EF Core"
+                }
+            },
+            "PART_4": {
+                "TITLE": "Scrum ervaring",
+                "ITEMS": {
+                    "ITEM_1": "Dagelijkse stand-up",
+                    "ITEM_2": "Sprint planning en retrospectives",
+                    "ITEM_3": "Opstellen van user stories en sprint taken"
+                }
+            },
+            "PART_5": {
+                "TITLE": "Opmerking",
+                "DESCRIPTION": "Door projectbeperkingen kan de broncode niet publiekelijk gedeeld worden."
+            }
+        }
+    },
+    "CV": {
+        "HEADER_TITLE": "INFORMATIE",
+        "PART_1": {
+            "TITLE": "Opleidingen",
+            "SUBTITLE_1": ".NET Ontwikkelaar met C# 1/06/24 - Heden",
+            "ITEM_1": {
+                "TITLE": "Basisopleiding IT",
+                "ITEMS": {
+                    "ITEM_1_1": "HTML en CSS",
+                    "ITEM_1_2": "SQL",
+                    "ITEM_1_3": "Javascript",
+                    "ITEM_1_4": "OOP (Object-Oriented Programming)",
+                    "ITEM_1_5": "Gegevensanalyse",
+                    "ITEM_1_6": "Programmatielogica"
+                }
+            },
+            "ITEM_2": {
+                "TITLE": ".NET C#",
+                "ITEMS": {
+                    "ITEM_2_1": "C# Programming Fundamentals",
+                    "ITEM_2_2": "Regex",
+                    "ITEM_2_3": "Test Driven Development",
+                    "ITEM_2_4": "ASP.NET MVC",
+                    "ITEM_2_5": "Entity Framework",
+                    "ITEM_2_6": "Web API",
+                    "ITEM_2_7": "Razor Pages",
+                    "ITEM_2_8": "Blazor",
+                    "ITEM_2_9": "Design Patterns",
+                    "ITEM_2_10": "React"
+                }
+            },
+            "SUBTITLE_2": "Fitness instructeur & Personal coach (Diploma)",
+            "SUBTITLE_3": "IT en netwerken (middelbaar)"
+        },
+        "PART_2": {
+            "TITLE": "Persoonlijke Vaardigheden",
+            "ITEMS": {
+                "ITEM_1": "Zelfstandig",
+                "ITEM_2": "Stipt",
+                "ITEM_3": "Teamspeler",
+                "ITEM_4": "Inzicht",
+                "ITEM_5": "Probleemoplossend",
+                "ITEM_6": "Analytisch"
+            }
+        },
+        "PART_3": {
+            "TITLE": "Talenkennis",
+            "ITEMS": {
+                "ITEM_1": "Nederlands",
+                "ITEM_2": "Engels",
+                "ITEM_3": "Frans"
+            }
+        },
+        "PART_4": {
+            "TITLE": "Profiel",
+            "DESCRIPTION": "Ik ben 26 jaar en heb mijn opleiding in .NET-development afgerond. Ik heb een grote interesse in softwareontwikkeling en ben gemotiveerd om mijn kennis verder uit te breiden. Hoewel ik nog aan het begin van mijn carrière sta, kijk ik enorm uit naar een praktische uitdaging om mijn vaardigheden verder te ontwikkelen."
+        },
+        "PART_5": {
+            "TITLE": "Werkervaring",
+            "SUBPART_1": {
+                "TITLE": "Service Technician",
+                "NOTE": "(augustus 2024 - december 2024)",
+                "LOCATION": "Signpost (Lokeren)",
+                "ITEMS": {
+                    "ITEM_1": "Diagnose stellen bij defecte laptops",
+                    "ITEM_2": "Herstellen laptops (HP, Lenovo, Dell en Asus)",
+                    "ITEM_3": "Controle gerepareerde laptops",
+                    "ITEM_4": "Refurb moederborden testen"
+                }
+            },
+            "SUBPART_2": {
+                "TITLE": "Order entry",
+                "NOTE": "(december 2022 - augustus 2024)",
+                "LOCATION": "Nollens (Kruishoutem)",
+                "ITEMS": {
+                    "ITEM_1": "Orders ingeven",
+                    "ITEM_2": "Contactperseoon tussen productie en bureau"
+                }
+            },
+            "SUBPART_3": {
+                "TITLE": "Gastheer ",
+                "NOTE": "(december 2021 - september 2022)",
+                "LOCATION": "Oxygen Fitness (Waregem)",
+                "ITEMS": {
+                    "ITEM_1": "Aanspreekpunt voor de klant",
+                    "ITEM_2": "Club onderhouden"
+                }
+            }
+        },
+        "PART_6": {
+            "TITLE": "Computerkennis",
+            "SUBPART_1": {
+                "TITLE": "Hardware"
+            },
+            "SUBPART_2": {
+                "TITLE": "Software",
+                "ITEMS": {
+                    "ITEM_1": "VS 2022",
+                    "ITEM_2": "VS Code",
+                    "ITEM_3": "SQL Server Management Studio",
+                    "ITEM_4": "GitHub",
+                    "ITEM_5": "Postman",
+                    "ITEM_6": "Render",
+                    "ITEM_7": "Neon PostgreSQL"
+                }
+            },
+            "SUBPART_3": {
+                "TITLE": "Microsoft 365",
+                "ITEMS": {
+                    "ITEM_1": "Word, Powerpoint, Excel, Access, Outlook",
+                    "ITEM_2": "Teams"
+                }
+            }
+        }
+    }
+}

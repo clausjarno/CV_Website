@@ -5,8 +5,10 @@ import phone from '../images/phone.png'
 import email from '../images/gmail.png'
 import address from '../images/address.png'
 import date from '../images/date.png'
+import { useTranslation } from 'react-i18next'
 
 export default function Header() {
+    const { t } = useTranslation();
     return (
         <header className="header page">
             <div className='left-section'>
@@ -16,7 +18,7 @@ export default function Header() {
                 </div>
             </div>
             <div className='right-section'>
-                <h2>Informatie</h2>
+                <h2>{t('CV.HEADER_TITLE')}</h2>
                 <p><img src={email} alt='gmail' />clausjarno@gmail.com</p>
                 <p><img src={phone} alt='phone number' />0471/24.54.01</p>
                 <p><img src={address} alt='address' />9160 Lokeren</p>
