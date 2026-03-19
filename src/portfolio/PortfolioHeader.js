@@ -29,7 +29,7 @@ export default function Header() {
                     <Link to={`/${i18n.language}/`}>Projects</Link>
                     <Link to={`/${i18n.language}/cv`}>CV</Link>
                     <a href='https://github.com/clausjarno' target='_blank' rel='noopener noreferrer'>Github</a>
-                    <a href="/Jarno Claus CV.pdf" download>Download CV</a>
+                    <a href={i18n.language === 'en' ? "/cv-en.pdf" : "/cv-nl.pdf"} download>Download CV</a>
                     <img
                         src={en_flag}
                         alt='English'
